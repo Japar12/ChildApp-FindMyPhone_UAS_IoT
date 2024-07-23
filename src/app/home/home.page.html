@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Child App
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <ion-text *ngIf="message">
+      <p>{{ message }}</p>
+    </ion-text>
+    <ion-button (click)="updateLocation()">Update Location</ion-button>
+  </div>
+</ion-content>

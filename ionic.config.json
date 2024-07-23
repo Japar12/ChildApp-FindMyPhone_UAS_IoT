@@ -1,0 +1,7 @@
+{
+  "name": "child-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
